@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Stewie",
+        "image": "../assets/images/stewie.png"
+    },
+    {
+        "id": 2,
+        "name": "chris",
+        "image": "../assets/images/chris.png"
+    },
+    {
+        "id": 3,
+        "name": "peter",
+        "image": "../assets/images/peter.png"
+    },
+    {
+        "id": 4,
+        "name": "louis",
+        "image": "../assets/images/louis.png"
+    },
+    {
+        "id": 5,
+        "name": "meg",
+        "image": "../assets/images/meg.png"
+    },
+    {
+        "id": 6,
+        "name": "chicken",
+        "image": "../assets/images/chicken.png"
+    },
+    {
+        "id": 7,
+        "name": "cleveland",
+        "image": "../assets/images/cleveland.png"
+    },
+    {
+        "id": 8,
+        "name": "quagmire",
+        "image": "../assets/images/quagmire.png"
+    },
+    {
+        "id": 9,
+        "name": "joe",
+        "image": "../assets/images/joe.png"
+    },
+    {
+        "id": 10,
+        "name": "bonnie",
+        "image": "../assets/images/bonnie.png"
+    },
+    {
+        "id": 11,
+        "name": "consuela",
+        "image": "../assets/images/consuela.png"
+    },
+    {
+        "id": 12,
+        "name": "niel",
+        "image": "../assets/images/niel.png"
+    },
+    {
+        "id": 13,
+        "name": "brian",
+        "image": "../assets/images/brian.png"
+    },
+    {
+        "id": 14,
+        "name": "herbert",
+        "image": "../assets/images/herbert.png"
+    },
+    {
+        "id": 15,
+        "name": "mayor",
+        "image": "../assets/images/mayor.png"
+    },
+    {
+        "id": 16,
+        "name": "monkey",
+        "image": "../assets/images/monkey.png"
+    },
+]
