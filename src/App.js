@@ -6,11 +6,32 @@ import characters from './characters.json'
 class App extends Component {
 
   state = {
-    count: 0
+    characters,
+    topScore: 0,
+    score: 0
   };
 
-  handleIncrement = () => {
-    this.setState({ count: this.state.count + 1 });
+  handleIncrement = newData => {
+    const { topScore, score } = this.state;
+    const newScore = score + 1;
+    const newTopScore = newScore > topScore ? newScore : topScore;
+    this.setState({
+      data: this.shuffleCharacters(newData),
+      score: newScore,
+      topScore: newTopScore
+    });
+  };
+
+  shuffleCharacters = data => {
+    let a = characters.length - 1;
+    while (a > 0) {
+      const b = Math.floor(Math.random() * (a + 1));
+      const newChar = characters[a];
+      characters[a] = characters[b];
+      characters[b] = newChar;
+      a--;
+    }
+    return data;
   };
 
   render() {
@@ -18,8 +39,8 @@ class App extends Component {
       <div className="App">
         <header className="App-bg">
           <div className="container">
-          <p>Count: {this.state.count}</p>
-          {characters.map(x => 
+          <p>Score: {this.state.score} | Top Score: {this.state.topScore}</p>
+          {this.state.characters.map(x => 
             <img onClick={this.handleIncrement} src={x.image} alt={x.name} />
           )}
           </div>
