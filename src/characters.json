@@ -2,81 +2,81 @@
     {
         "id": 1,
         "name": "Stewie",
-        "image": "../assets/images/stewie.png"
+        "image": "http://i.bnet.com/blogs/astewie__opt.jpg"
     },
     {
         "id": 2,
         "name": "chris",
-        "image": "../assets/images/chris.png"
+        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-family-guy-seth-green.jpg"
     },
     {
         "id": 3,
         "name": "peter",
-        "image": "../assets/images/peter.png"
+        "image": "https://vignette.wikia.nocookie.net/berenstainbears/images/1/1d/00000000000000000000000000000.png/revision/latest?cb=20180918023858"
     },
     {
         "id": 4,
         "name": "louis",
-        "image": "../assets/images/louis.png"
+        "image": "https://vignette.wikia.nocookie.net/family-guy-the-quest-for-stuff/images/c/cf/Facespace_portrait_loisgriffin_default%404x.png/revision/latest?cb=20140420142401"
     },
     {
         "id": 5,
         "name": "meg",
-        "image": "../assets/images/meg.png"
+        "image": "http://cdn.playbuzz.com/cdn/1dac51ab-4202-47af-847e-e2afcc8d108e/83d647fa-f74a-440a-935f-a1e1702a6706.png"
     },
     {
         "id": 6,
         "name": "chicken",
-        "image": "../assets/images/chicken.png"
+        "image": "http://cl.buscafs.com/www.metatube.com/public/uploads/images/764007_230x180.jpeg"
     },
     {
         "id": 7,
         "name": "cleveland",
-        "image": "../assets/images/cleveland.png"
+        "image": "https://pbs.twimg.com/profile_images/476957169133182976/Yzcx7U5r.jpeg"
     },
     {
         "id": 8,
         "name": "quagmire",
-        "image": "../assets/images/quagmire.png"
+        "image": "https://i.imgur.com/iqeFpHD.png?1"
     },
     {
         "id": 9,
         "name": "joe",
-        "image": "../assets/images/joe.png"
+        "image": "https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-family-guy-Patrick-Warburton.jpg"
     },
     {
         "id": 10,
         "name": "bonnie",
-        "image": "../assets/images/bonnie.png"
+        "image": "http://www.comedycentral.co.uk/sites/default/files/styles/image-w-520-h-520-scale/public/cc_uk/galleries/large/2016/09/26/grid-cell-13618-1415840121-25.jpg?itok=XGhh_QsD"
     },
     {
         "id": 11,
         "name": "consuela",
-        "image": "../assets/images/consuela.png"
+        "image": "https://res.cloudinary.com/teepublic/image/private/s--jS9vy_I---/t_Preview/b_rgb:0195c3,c_limit,f_jpg,h_630,q_90,w_630/v1446246052/production/designs/303281_1.jpg"
     },
     {
         "id": 12,
         "name": "niel",
-        "image": "../assets/images/niel.png"
+        "image": "https://vignette.wikia.nocookie.net/uma-familia-da-pesada/images/a/a6/Mort_Goldman.png/revision/latest?cb=20160405143150"
     },
     {
         "id": 13,
         "name": "brian",
-        "image": "../assets/images/brian.png"
+        "image": "https://vignette.wikia.nocookie.net/familyguy/images/8/8b/FGuy_Brian_Gen2012_R3Flat.jpg/revision/latest?cb=20120905115633"
     },
     {
         "id": 14,
         "name": "herbert",
-        "image": "../assets/images/herbert.png"
+        "image": "https://upload.wikimedia.org/wikipedia/ka/6/67/Herbert_-_Family_Guy.png"
     },
     {
         "id": 15,
         "name": "mayor",
-        "image": "../assets/images/mayor.png"
+        "image": "https://banner2.kisspng.com/20180315/sfe/kisspng-cleveland-brown-adam-west-family-guy-clip-art-western-mayor-cliparts-5aaa959bdf56d4.1723897215211288599148.jpg"
     },
     {
         "id": 16,
         "name": "monkey",
-        "image": "../assets/images/monkey.png"
-    },
+        "image": "https://t2.rbxcdn.com/98de17e16ceac371ec74812de9f2146a"
+    }
 ]

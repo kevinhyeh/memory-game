@@ -1,20 +1,30 @@
-import React, { Component } from "react";
-import Characters from "./components/Characters";
-import characters from "./characters.json";
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import characters from './characters.json'
 
 class App extends Component {
-    state = {
-        characters
-    };
+
+  state = {
+    count: 0
+  };
+
+  handleIncrement = () => {
+    this.setState({ count: this.state.count + 1 });
+  };
 
   render() {
-  return (
-      {this.state.characters.map(family => (
-        <Characters
-        name={family.name}
-        image={family.image}
-        />
-        ))}
+    return (
+      <div className="App">
+        <header className="App-bg">
+          <div className="container">
+          <p>Count: {this.state.count}</p>
+          {characters.map(x => 
+            <img onClick={this.handleIncrement} src={x.image} alt={x.name} />
+          )}
+          </div>
+        </header>
+      </div>
     );
   }
 }
